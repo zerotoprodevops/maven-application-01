@@ -31,6 +31,9 @@
     </dependencies>
 
     <build>
+
+       <finalName>manab-technologies</finalName>
+
         <plugins>
             <!-- Plugin to create a runnable JAR with Main class -->
             <plugin>
@@ -43,7 +46,6 @@
                             <mainClass>com.manab.App</mainClass>
                         </manifest>
                     </archive>
-                    <finalName>manab-technologies</finalName>
                 </configuration>
             </plugin>
             <!-- Required for JUnit 5 to work with Maven -->
