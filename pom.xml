@@ -56,10 +56,11 @@
             </plugin>
         </plugins>
     </build>
-    <repository>
-        <id>nexus-server</id> <!-- Must match the ID in settings.xml -->
-        <name>Nexus Release Repository</name>
-        <url>http://172.31.32.113:8081/repository/maven-application-01/</url>
-    </repository>     
-
+    <distributionManagement>     
+             <repository>
+                 <id>nexus-server</id> <!-- Must match the ID in settings.xml -->
+                 <name>Nexus Release Repository</name>
+                 <url>http://172.31.32.113:8081/repository/maven-application-01/</url>
+             </repository>     
+     </distributionManagement>
 </project>
